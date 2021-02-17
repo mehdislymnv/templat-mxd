@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar{
+    background:linear-gradient(rgb(129, 128, 128), #ffffff);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    position: relative;
+    position: fixed;
+}
+
+.buton{
+    display: flex;
+    align-items: center;
+    
+}
+.buton a{
+  
+    display: flex;
+    padding: 8px ;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.buton a:hover{
+    color: #504f4f;
+}
+
+/*logo*/
+#logo{
+    display:inline-block;
+    
+    align-items: center;
+    padding: 0 20px 0 20px;
+    color: red;
+    text-shadow: 5px 5px 3px green,-5px -5px 3px mediumblue;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+/*arama*/
+:focus{
+    outline: none;
+}
+.sosial{
+    
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    right: 9px;
+    
+   
+}
+.sosial button:hover{
+    background:#ffffff;
+    color:black;
+}
+
+#sjl{
+    border: none;
+    border-left:1px solid red;
+    background:#ffffff;
+    width: 32px;
+    height: 30px;
+    
+}
+
+#text{
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.sosial form{
+    display: flex;
+}
+/*insda*/
+
+#insda{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    position: absolute;
+    right: 17px;
+    top: 3px;
+    margin: 0 10px;
+    align-self:center;
+    align-items: center;
+}
+
+#insda :hover{
+    color:#ffffff;
+}
+
+
+#twit{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    margin: 0 10px;
+    align-self:center;
+    align-items: center;
+    top: 3px;
+    right: 0;
+
+}
+#twit :hover{
+    color:#ffffff;
+}
+/*sekil*/
+
+header .sekil h1{
+    
+    opacity: 0.2;
+    color: black;
+    
+    
+    text-align: center;
+}
+header .sekil p{
+    color:#ffffff;
+    
+    padding-top:10rem;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+header .sekil p::first-letter{
+    font-size: 80px;
+    font-style: inherit;
+}
+header .sekil {
+    padding-top:100px;
+    text-align: center ;
+    
+    min-height:calc(100vh + 70px);
+    background: url(foto/fon1.jpg) center center no-repeat ;
+    background-size: cover;
+}
+/*buton qeydiyyat*/
+.qeydiyyat{
+    background: black;
+    
+    width:auto;
+    height: 35px;
+    align-items: center;
+    border-radius: 5px;
+    display: inline-block;
+    
+    border: 1px solid slategray;
+}
+.qeydiyyat:hover{
+    background: #ffffff;
+    color: black;
+}
+
+section{
+    width: 100%;
+    min-height: calc(40vh);
+    background:linear-gradient(#0c0c0c, #ffffff);
+    text-align: center;
+    align-items: center;
+    
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+section .qutusekil img {
+    margin:0 auto;
+    
+    align-items: center;
+    border-radius:200px;
+    width: 200px;
+    height: auto;
+    
+}
+
+section .qutu{
+    margin:0 auto; 
+    border-radius: 22px;
+    background:#ffffff;
+    width: 50rem;
+    height: 10rem;
+}
+section .qutu p{
+
+    font-style: italic;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.melsekil{
+    height: 20vh;
+    text-align: center;
+}
+.melsekil img{
+    
+    margin-left: 30px;
+    width: 100px;
+    border-radius: 100px;
+}

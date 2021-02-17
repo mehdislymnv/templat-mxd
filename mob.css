@@ -1,0 +1,31 @@
+.navbar{
+    padding-top: 3px;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+}
+.sosial{
+    display: none;
+    
+}
+
+.sec{
+    align-items: center;
+    flex-direction: column;
+   
+
+
+}
+
+.sec .qutu{
+    margin: 0 auto;
+    background:black ;
+    border-radius: 22px;
+    overflow: hidden;
+    width: 450px;
+    height: 250px;
+}
+.sec .qutu p{
+    align-items: center;
+    color: #ffffff;
+}
